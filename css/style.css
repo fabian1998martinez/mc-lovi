@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+}
+/*--------estylos base--------------*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+/*-.........header-------*/
+
+.inicio{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #de423a;
+    padding: 10px;
+    font-family:'pacifico',cursive;
+    font-weight:100;
+}
+.contacto-1{
+    background: #de423a;
+    color: #F9F7F7;
+}
+.emoji{
+    padding: 5px;
+}
+/*-------menu-----*/
+.icono{
+     display: block;
+     color: #F9F7F7;
+}
+.nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.social-ico{
+    color: #000;
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    background: #F9F7F7;
+    border-radius: 50%;
+    z-index: 4000;
+    background: #F9F7F7;
+    
+}
+.nav-link{
+    font-size: 1.5em;
+}
+.li-color{
+    font-size: 1.3em;
+    background:#de423a;
+    margin-right: 10px;
+    font-weight: 600;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+   
+}
+/*--------estilos de banner-----*/
+
+.banner__img{
+    margin-top: -18px;
+}
+.main{
+    background: #de423a;
+    border-radius: 5px;
+}
+.main__title {
+    font-size: 1.5em;
+    font-weight:700;
+}
+.main__text{
+    font-weight: 500;
+}
+.banner__content{
+    font-weight:600 ;
+}
+.img2-0{
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    right: 18px;
+ }
+ .column{
+     background: #de423a;
+     border-radius: 5px;
+ }
+ .column__text{
+        font-weight: 600;
+ }
+ /*------especial noche----*/
+ .h2{
+     position: relative;
+     text-align: center
+ }
+.today-special__price{
+    text-align:center;
+    background: #de423a;
+}
+.precio{
+    position: relative;
+   top: 5px;
+}
+.precios{
+    position: relative;
+    top: 3px;
+}
+.cambio-title{
+    position:relative;
+    top: 2px;
+}
+.cambio-2{
+    font-size: 25px;
+    font-weight: 600;
+}
+footer{
+    background: rgba(0, 0, 0, .8);
+}
